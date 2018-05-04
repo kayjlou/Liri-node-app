@@ -51,10 +51,11 @@ function getTweets(){
 
   //Request to get tweet information
   client.get('statuses/user_timeline', params, function(error, tweets, response) {
+    //console.log(JSON.stringify(tweets, null, 2));
     if (!error) {
+      console.log("\nHere are the tweets for @ItsSunnyOut1")
         for (var i=0; i < tweets.length; i++){
-          console.log(response)
-            console.log(tweets[i].text + 
+            console.log("\n" + i+":" + tweets[i].text + 
               "\nCreated on: " + tweets[i].created_at + "\n");
         }
     }
