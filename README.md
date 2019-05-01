@@ -1,10 +1,22 @@
 # Liri-node-app
 
-Create an app in the terminal (similar to Siri) that takes in four commands
-my-tweets (logs out recent tweets)
-spotify-this-song (searches and logs out information on the song input)
-movie-this (searches and returns movie information based on input)
-do-what-it-says (Reads txt file and inputs into command to run spotify-this-song command)
+### To Install
 
+-git clone https://github.com/kayjlou/Liri-node-app.git
+-Navigate to package.json and run npm install
 
-Link to pages: https://kayjlou.github.io/Liri-node-app/
+### To Run
+
+-The commmand line takes four commands
+
+1. node liri.js my-tweets
+   This will log out recent tweets of the linked twitter account
+
+2. node liri.js spotify-this-song "Song"
+   This will search for song input and log out information using the spotify API
+
+3. node liri.js movie-this "Movie"
+   This will search for the movie input and return information
+
+4. node liri.js do-what-it-says
+   This will read the text file and run the command that is written in the file
