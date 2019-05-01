@@ -4,10 +4,11 @@
 
 -git clone https://github.com/kayjlou/Liri-node-app.git
 -Navigate to package.json and run npm install
+-Run node liri.js followed by one of the four commands
 
 ### To Run
 
--The commmand line takes four commands
+-The command line takes four commands
 
 1. node liri.js my-tweets
    This will log out recent tweets of the linked twitter account
