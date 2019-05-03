@@ -2,9 +2,9 @@
 
 ### To Install
 
--git clone https://github.com/kayjlou/Liri-node-app.git
--Navigate to package.json and run npm install
--Run node liri.js followed by one of the four commands
+-git clone https://github.com/kayjlou/Liri-node-app.git  
+-Navigate to package.json and run npm install   
+-Run node liri.js followed by one of the four commands   
 
 ### To Run
 
